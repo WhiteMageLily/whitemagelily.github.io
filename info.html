@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cottagecraft Basic Info</title>
+    <style>
+        @font-face {
+            font-family: 'Cutesy';
+            src: url('cutesy.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            margin: 0;
+            font-family: 'Cutesy', sans-serif;
+            background-color: #f0e7db;
+            color: #4e473d;
+        }
+
+        header {
+            padding: 1rem;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            background-color: #dfd3c3;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+        }
+
+        .header_nav {
+            float: left;
+            font-size: 30px;
+            margin: 1rem;
+        }
+
+        .header_nav a {
+            float: left;
+            color: #4e473d;
+            border: 2px solid #dfd3c3;
+            border-radius: 10px;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 32px;
+        }
+
+        /* Change the color of links on hover */
+        .header_nav a:hover {
+            background-color: #f0e7db;
+            border: 2px solid #dfd3c3;
+            border-radius: 10px;
+            color: #ffffff;
+        }
+
+        header h1 {
+            position: absolute;
+            float: none;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin: 0;
+            text-align: center;
+            font-size: 4rem;
+        }
+
+        .nav {
+            border: 2px solid #c29b65;
+            border-radius: 15px;
+            background: #dfd3c3;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+            font-size: 1.5rem;
+            padding-left: 2%;
+            margin-top: 25px;
+            width: 40%;
+        }
+
+        .nav ul {
+            font-size: 1.5rem;
+            margin: 10px;
+            padding-bottom: 10px;
+            list-style:armenian;
+        }
+
+        .section_div {
+            text-align: left;
+            font-size: 28px;
+            padding-left: 20%;
+            padding-bottom: 20px;
+            padding-right: 20%;
+        }
+
+        .section_div2 {
+            text-align: left;
+            padding-left: 3%;
+        }
+
+        .section_div2 p {
+            padding: 2%;
+            font-size: 2rem;
+            line-height: 1.2;
+            background: #dfd3c3;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+            border: 2px solid #c29b65;
+            border-radius: 15px;
+        }
+
+        .how_to_list {
+            padding: 2%;
+            font-size: 1.5rem;
+            line-height: 1.2;
+            list-style-position: inside;
+            list-style-type: square;
+            background: #dfd3c3;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+            border: 2px solid #c29b65;
+            border-radius: 15px;
+            width: 30%;
+        }
+
+        .page_image {
+            width: 400px;
+            height: 200px;
+            margin: auto;
+            padding: 2%;
+        }
+
+        .images {
+            text-align: center;
+            position: relative;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header_nav">
+            <ul>
+                <a href="info.html">Basic Info</a>
+                <a href="index.html">Recipe Book</a>
+            </ul>
+        </div>
+        <h1>CottageCraft Basic Info!</h1>
+    </header>
+
+    <div class="section_div">
+        <div class="section_div2">
+            <div class="nav">
+                <h3>Jump to section:</h3>
+                <ul>
+                    <a href="#gardening">Gardening</a>
+                    <a href="#cooking">Cooking</a>
+                    <a href="#decorating">Decorating</a>
+                    <a href="#farming">Farming</a>
+                    <a href="#fishing">Fishing</a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section_div", id="gardening">
+        <h2 style="text-align: left; font-size: 40px;">Gardening:</h2>
+        <div class="section_div2">
+            <p>
+                <strong>Gardening</strong> is a lifeskill that allows players to level up by creating and sculpting nature! Create lovely gardens, grow trees and decorate your home with beautiful plants.
+                The more you garden, the more you will level up your <strong>Gardening</strong> Lifeskill, which will allow you to purchase special items from the market.
+            </p>
+            <h3>Ways to Level:</h3>
+            <ul class="how_to_list">
+                <li>Growing Trees with Bonemeal</li>
+                <li>Breaking Grass in your Garden</li>
+            </ul>
+            <h3>Gardens:</h3>
+            <p>
+                Garden Markers are special blocks that grow grass in a 10x10 area while you are nearby! This grass can be used to level up your <strong>Gardening</strong> Lifeskill.
+                Garden Markers can be obtained from the market, but require you to be at least level 2 or above in <strong>Gardening</strong> to purchase.
+            </p>
+            <div class="images">
+                <img class="page_image" src="https://imgur.com/6lzYIKD.png">
+                <img class="page_image" src="https://imgur.com/eY7ChBs.png">
+            </div>
+        </div>  
+    </div>
+
+    <div class="section_div", id="cooking">
+        <h2 style="text-align: left; font-size: 40px;">Cooking:</h2>
+        <div class="section_div2">
+            <p>
+                <strong>Cooking</strong> is a big part of the server. With so many custom ingredients and meals, you will be busy chef'ing it up for hours! Recipes range from super 
+                simple to moderately complex. The more complicated the meal, the more it will be worth when you sell them!
+                The more you cook, the more you will level up your <strong>Cooking</strong> Lifeskill, which will allow you to purchase special items from the market.
+            </p>
+            <h3>Ways to Level:</h3>
+            <ul class="how_to_list">
+                <li>Crafting ingredients and meals</li>
+                <li>Cooking ingredients and meals</li>
+            </ul>
+            <h3>Market:</h3>
+            <p>
+                The market is a place where you can purchase special ingredients and items that are not typically found in the world. You can access the market
+                by warping there using the command <i><strong>"warp market"</i></strong>.
+            </p>
+        </div>  
+    </div>
+    <div class="section_div", id="decorating">
+        <h2 style="text-align: left; font-size: 40px;">Decorating:</h2>
+        <div class="section_div2">
+            <p>
+                <strong>Decorating</strong> is a fun way to express your creativity and make your home feel cozy! With a wide variety of furniture and decorations, you can create
+                a unique space that reflects your personality. The more you decorate, the more you will level up your <strong>Decorating</strong> Lifeskill, which 
+                will allow you to purchase special items from the market.
+            </p>
+            <h3>Ways to Level:</h3>
+            <ul class="how_to_list">
+                <li>Crafting tools and materials</li>
+                <li>Crafting furniture</li>
+            </ul>
+            <h3>Market:</h3>
+            <p>
+                Much like with <a href="#cooking"><strong>Cooking</strong></a>, the market is a place where you can purchase special items that are not typically found in the world.
+                You can access the market by warping there using the command <i><strong>"warp market"</i></strong>. A merchant, found only there, will sell you
+                special items that can be used to craft even more unique furniture and decorations.
+            </p>
+        </div> 
+    </div>
+    <div class="section_div", id="farming">
+        <h2 style="text-align: left; font-size: 40px;">Farming:</h2>
+        <div class="section_div2">
+            <p>
+                Farming is a lifeskill that allows players to grow and harvest crops, which can be used in cooking or sold for profit. As with many aspects of CottageCraft,
+                there are many custom crops and items that can be grown, making farming feel fresh and exciting! The more you farm, the more you will level up your <strong>Farming</strong> 
+                Lifeskill, which will allow you to purchase special items from the market.
+            </p>
+            <h3>Ways to Level:</h3>
+            <ul class="how_to_list">
+                <li>Growing and harvesting crops</li>
+                <li>Composting excess seeds</li>
+            </ul>
+            <h3>Market:</h3>
+            <p>
+                Similarly to <a href="#cooking"><strong>Cooking</strong></a> and <a href="#decorating"><strong>Decorating</strong></a>, the market is a place where you can purchase special items that are not typically found in the world.
+                You can access the market by warping there using the command <i><strong>"warp market"</i></strong>.
+            </p>
+        </div>
+    </div>
+    <div class="section_div", id="fishing">
+        <h2 style="text-align: left; font-size: 40px;">Fishing:</h2>
+        <div class="section_div2">
+            <p>
+                <strong>Fishing</strong> is a lifeskill that allows players to catch fish in various bodies of water. With many custom fish, you can spend hours
+                trying to catch them all! The more you fish, the more you will level up your <strong>Fishing</strong> Lifeskill. Unlike other lifeskills, fishing
+                does not directly benefit from the market, but instead has a unique prestige system that allows you to reset your fishing level in exchange for special items!
+            </p>
+            <h3>Ways to Level:</h3>
+            <ul class="how_to_list">
+                <li>Catching fish!</li>
+            </ul>
+            <h3>Collection:</h3>
+            <p>
+                As you fish, you will collect various types and rarities of fish. These fish can be sold using the <i><strong>"sellfish"</strong></i> command, or can be kept as a
+                trophy in your home. As you catch new fish, you will fill out your Fish Collection, which can be viewed using the <i><strong>"fish collection"</strong></i> 
+                command. Once you complete your collection, you will receive a special reward that can be used to purchase unique fishing gear and items from the market.
+            </p>
+            <h3>Prestige:</h3>
+            <p>
+                Once reaching level 30 in <strong>Fishing</strong>, you can choose to prestige your fishing level via the <i><strong>"prestige"</strong></i> command. This will reset 
+                your fishing level back to 1, and you will lose all of your fish collection progress. However, you will gain a special item that can be used to purchase unique fishing 
+                gear and items from the market.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
